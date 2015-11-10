@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require angular/lib/angular.min
 //= require_tree ./angular/lib
+//= require ./angular/contacts/contacts.module
 //= require_tree .

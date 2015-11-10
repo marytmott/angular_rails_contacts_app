@@ -1,0 +1,36 @@
+<h1>Add A Contact</h1>
+<label>Name
+  <input type="text" placeholder="name" ng-model="vm.newContact.name" />
+</label>
+<label>Email
+  <input type="text" placeholder="email" ng-model="vm.newContact.email" />
+</label>
+<label>Phone
+  <input type="text" placeholder="phone" ng-model="vm.newContact.phone" />
+</label>
+<button ng-click="vm.addContact()">Add Contact</button><br />
+<div>
+<label>Search
+  <input type="text" placeholder="name" ng-model="search.name" />
+</label>
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Giphy</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="contact in vm.contactData | filter: search">
+      <td>{{ contact.name }}</td>
+      <td>{{ contact.email }}</td>
+      <td>{{ contact.phone }}</td>
+      <td><img ng-src="{{contact.giphy}}" /></td>
+      <td><a href="#/{{contact.name}}">Show</a></td>
+    </tr>
+  </tbody>
+</table>
