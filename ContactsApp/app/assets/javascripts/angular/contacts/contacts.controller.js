@@ -8,12 +8,23 @@
 
   function ContactsController(ContactsFactory) {
     var vm = this;
-    vm.newContact = {};
-    ContactsFactory.getContacts().then(function(data) {
-      console.log(data);
-      // vm.contactData = data
-    });
-    // vm.getContacts = ContactsFactory
+
+    function addContact() {
+      // console.log(vm.newContact);
+      ContactsFactory.createContact(vm.newContact);
+      // $route.reload();
+      vm.newContact = {};
+      getContacts();
+    }
+
+    function getContacts() {
+      ContactsFactory.getContacts().then(function(data) {
+        console.log(data);
+        vm.contactData = data.data;
+      });
+    }
+    getContacts();
+    vm.addContact = addContact;
   }
 
 })();

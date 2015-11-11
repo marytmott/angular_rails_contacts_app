@@ -9,12 +9,7 @@
   function configRoutes($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/contacts.html',
-        controller: 'ContactsController',
-        controllerAs: 'vm'
-      })
-      .when('/:name', {
-        templateUrl: '/partials/show.html',
+        templateUrl: '/partials/contacts.html',
         controller: 'ContactsController',
         controllerAs: 'vm'
       });

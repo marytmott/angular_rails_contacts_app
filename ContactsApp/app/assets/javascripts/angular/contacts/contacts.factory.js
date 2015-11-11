@@ -11,8 +11,14 @@
       return $http.get('/contacts')
         .success(requestSuccess)
         .error(requestError);
-
     }
+
+    function createContact(newContact) {
+      return $http.post('/contacts', newContact)
+        .success(requestSuccess)
+        .error(requestError);
+    }
+
 
     function requestSuccess(data) {
       console.log(data);
@@ -24,7 +30,8 @@
     }
 
     return {
-      getContacts: getContacts
+      getContacts: getContacts,
+      createContact: createContact
     };
   }
 })();

@@ -3,7 +3,8 @@
 
   angular.module('contactsApp', [
     'ngRoute',
-    'contactsApp.contacts'
+    'contactsApp.contacts',
+    'contactsApp.contact'
   ])
   .config(configRoutes);
 

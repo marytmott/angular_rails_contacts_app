@@ -1,5 +1,7 @@
-<img ng-src="{{contact.giphy}}" />
-<h3>{{contact.name}}</h3>
-<p>email: {{contact.email}}</p>
-<p>phone: {{contact.phone}}</p>
-<button ng-click="removeContact()">Remove Contact</button>
+<!-- <img ng-src="{{contact.giphy}}" /> -->
+<h3>{{vm.contact.name}}</h3>
+<p>email: {{vm.contact.email}}</p>
+<p>phone: {{vm.contact.phone}}</p>
+<button ng-click="vm.updateContact()">Update {{vm.contact.name}}</button>
+<button ng-click="vm.removeContact()">Remove {{vm.contact.name}}</button>
+form shows
