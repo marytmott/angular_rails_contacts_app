@@ -1,113 +1,113 @@
-(function() {
-  'use strict';
+// (function() {
+//   'use strict';
 
-  angular.module('contactsApp.contact')
-    .factory('ContactRequestFactory', ContactRequestFactory);
+//   angular.module('contactsApp.contact')
+//     .factory('ContactRequestFactory', ContactRequestFactory);
 
-  ContactRequestFactory.$inject = ['$http'];
+//   ContactRequestFactory.$inject = ['$http'];
 
-  function ContactRequestFactory($http) {
-    function getOneContact(contactId) {
-      return $http.get('/api/contacts/' + contactId)
-        .success(requestSuccess)
-        .error(requestError);
-    }
-
-    function removeContact(contactId) {
-      console.log(contactId);
-      return $http.delete('/api/contacts/' + contactId)
-        .success(requestSuccess)
-        .error(requestError);
-    }
-
-    function updateContact(contactId, contactInfo) {
-      return $http.put('/api/contacts/' + contactId, contactInfo)
-        .success(requestSuccess)
-        .error(requestError);
-    }
-
-    function requestSuccess(data) {
-      console.log(data);
-      return data;
-    }
-
-    function requestError(error) {
-      console.log(error);
-    }
-
-    return {
-      getOneContact: getOneContact,
-      removeContact: removeContact,
-      updateContact: updateContact
-    };
-  }
-})();
-
-
-/////
-// app.factory('ContactList', function() {
-//   var ContactList = {};
-
-//   ContactList.contactList = [
-//     {
-//       name: 'Peter',
-//       email: 'peter@email.com',
-//       phone: '(123) 456-7890',
-//       giphy: 'http://media0.giphy.com/media/zHBySqsGYTGeI/100.gif'
-//     },
-//     {
-//       name: 'Sarah Myers',
-//       email: 'sarah@email.com',
-//       phone: '(123) 456-7890',
-//       giphy: 'http://media3.giphy.com/media/2r9KZBmdeIw6I/100.gif'
+//   function ContactRequestFactory($http) {
+//     function getOneContact(contactId) {
+//       return $http.get('/api/contacts/' + contactId)
+//         .success(requestSuccess)
+//         .error(requestError);
 //     }
-//   ];
 
-//   ContactList.addContact = function(obj) {
-//     ContactList.contactList.push(obj);
-//   };
+//     function removeContact(contactId) {
+//       console.log(contactId);
+//       return $http.delete('/api/contacts/' + contactId)
+//         .success(requestSuccess)
+//         .error(requestError);
+//     }
 
-//   ContactList.findContact = function(name) {
-//     var found;
-//     //can use underscore
-//     //note: buggy if multiple names
-//     ContactList.contactList.forEach(function(contact, index) {
-//       if (contact.name === name) {
-//         contact.index = index;
-//         found = contact;
-//       }
-//     });
-//     return found;
-//   };
+//     function updateContact(contactId, contactInfo) {
+//       return $http.put('/api/contacts/' + contactId, contactInfo)
+//         .success(requestSuccess)
+//         .error(requestError);
+//     }
 
-//   ContactList.removeContact = function(index) {
-//     ContactList.contactList.splice(index, 1);
-//   };
+//     function requestSuccess(data) {
+//       console.log(data);
+//       return data;
+//     }
 
-//   return ContactList;
-// });
+//     function requestError(error) {
+//       console.log(error);
+//     }
 
-// app.factory('Giphy', ['$http', '$q', function($http, $q) {
-//   var Giphy = {};
-//   Giphy.search = function(name) {
-//     var encodedName = encodeURIComponent(name);
-//     var url = 'http://api.giphy.com/v1/gifs/search?q=' + encodedName + '&api_key=dc6zaTOxFJmzC';
+//     return {
+//       getOneContact: getOneContact,
+//       removeContact: removeContact,
+//       updateContact: updateContact
+//     };
+//   }
+// })();
 
-//     //make it return a random number in the array of returned data
-//     $http.get(url).success(function(data) {
-//       // console.log(data.data);
-//       return data.data[0].images.fixed_height_small.url;
-//     }).error(function() {
-//       //return null if error
-//       return null;
-//     });
 
-//     // return
-//   };
+// /////
+// // app.factory('ContactList', function() {
+// //   var ContactList = {};
 
-//   //encodeuri
-//   //gte response --> what doesit look like?
+// //   ContactList.contactList = [
+// //     {
+// //       name: 'Peter',
+// //       email: 'peter@email.com',
+// //       phone: '(123) 456-7890',
+// //       giphy: 'http://media0.giphy.com/media/zHBySqsGYTGeI/100.gif'
+// //     },
+// //     {
+// //       name: 'Sarah Myers',
+// //       email: 'sarah@email.com',
+// //       phone: '(123) 456-7890',
+// //       giphy: 'http://media3.giphy.com/media/2r9KZBmdeIw6I/100.gif'
+// //     }
+// //   ];
 
-//   //save it
-//   return Giphy;
-// }]);
+// //   ContactList.addContact = function(obj) {
+// //     ContactList.contactList.push(obj);
+// //   };
+
+// //   ContactList.findContact = function(name) {
+// //     var found;
+// //     //can use underscore
+// //     //note: buggy if multiple names
+// //     ContactList.contactList.forEach(function(contact, index) {
+// //       if (contact.name === name) {
+// //         contact.index = index;
+// //         found = contact;
+// //       }
+// //     });
+// //     return found;
+// //   };
+
+// //   ContactList.removeContact = function(index) {
+// //     ContactList.contactList.splice(index, 1);
+// //   };
+
+// //   return ContactList;
+// // });
+
+// // app.factory('Giphy', ['$http', '$q', function($http, $q) {
+// //   var Giphy = {};
+// //   Giphy.search = function(name) {
+// //     var encodedName = encodeURIComponent(name);
+// //     var url = 'http://api.giphy.com/v1/gifs/search?q=' + encodedName + '&api_key=dc6zaTOxFJmzC';
+
+// //     //make it return a random number in the array of returned data
+// //     $http.get(url).success(function(data) {
+// //       // console.log(data.data);
+// //       return data.data[0].images.fixed_height_small.url;
+// //     }).error(function() {
+// //       //return null if error
+// //       return null;
+// //     });
+
+// //     // return
+// //   };
+
+// //   //encodeuri
+// //   //gte response --> what doesit look like?
+
+// //   //save it
+// //   return Giphy;
+// // }]);

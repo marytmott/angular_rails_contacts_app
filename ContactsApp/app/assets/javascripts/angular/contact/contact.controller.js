@@ -4,29 +4,31 @@
   angular.module('contactsApp.contact')
     .controller('ContactController', ContactController);
 
-  ContactController.$inject = ['$routeParams', '$location', 'ContactRequestFactory'];
+  ContactController.$inject = ['$routeParams', '$location', 'ContactsFactory'];
 
-  function ContactController($routeParams, $location, ContactRequestFactory) {
+  function ContactController($routeParams, $location, ContactsFactory) {
     var vm = this;
-    function removeContact() {
-      ContactRequestFactory.removeContact(vm.contact.id);
-      $location.path('/');
-    }
+    var contactId = $routeParams.id;
 
     function updateContact() {
       vm.update = !vm.update;
-      console.log(vm.update);
       if (!vm.update) {
-        ContactRequestFactory.updateContact(vm.contact.id, vm.contact).then(function(data) {
-          console.log(data);
-        });
+        vm.contact = ContactsFactory.update({id: vm.contact.id},
+          {
+            name: vm.contact.name,
+            email: vm.contact.email,
+            phone: vm.contact.phone
+          }
+        );
       }
     }
 
-    ContactRequestFactory.getOneContact($routeParams.id).then(function(data) {
-      console.log(data);
-      vm.contact = data.data;
-    });
+    function removeContact() {
+      ContactsFactory.delete({id: vm.contact.id});
+      $location.path('/');
+    }
+
+    vm.contact = ContactsFactory.get({id: contactId});
     vm.removeContact = removeContact;
     vm.update = false;
     vm.updateContact = updateContact;

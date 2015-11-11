@@ -14108,3 +14108,2152 @@ Started GET "/api/contacts" for ::1 at 2015-11-10 20:22:19 -0800
 Processing by ContactsController#index as HTML
   [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
 Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:06:49 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (230.7ms)
+Completed 200 OK in 275ms (Views: 274.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:06:49 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:06:49 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:06:49 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:06:49 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-6ab3141849ebcd943b44ad91a18213125d2efce0128000ec69560426a438c29a.js?body=1" for ::1 at 2015-11-10 22:06:49 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:06:49 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:06:49 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:06:49 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-86c8b742ef7d393635f43ff99660500c0aa7401198d57b0f61271fe833ba8623.js?body=1" for ::1 at 2015-11-10 22:06:49 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:06:50 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:06:50 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:06:50 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:06:50 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:06:50 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:06:50 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:06:50 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:06:50 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:06:50 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:06:50 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:06:50 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.8ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (40.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (88.8ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:07:01 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (184.5ms)
+Completed 200 OK in 234ms (Views: 233.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-bf77b2eb93477c25d74e5545ce887a73eed26e28d1bfa78a2dd3218ed845614d.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-6ab3141849ebcd943b44ad91a18213125d2efce0128000ec69560426a438c29a.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:07:02 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:07:02 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (35.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (76.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:07:02 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (46.8ms)
+Completed 200 OK in 94ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:07:15 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (191.5ms)
+Completed 200 OK in 232ms (Views: 231.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-6ab3141849ebcd943b44ad91a18213125d2efce0128000ec69560426a438c29a.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:07:16 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:07:16 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (34.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (77.5ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:07:16 -0800
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.4ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/contacts" for ::1 at 2015-11-10 22:07:29 -0800
+Processing by ContactsController#create as HTML
+  Parameters: {"name"=>"blah", "email"=>"blah", "phone"=>"blah", "contact"=>{"name"=>"blah", "email"=>"blah", "phone"=>"blah"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "contacts" ("name", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "blah"], ["email", "blah"], ["phone", "blah"], ["created_at", "2015-11-11 06:07:29.502670"], ["updated_at", "2015-11-11 06:07:29.502670"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+Completed 201 Created in 14ms (Views: 0.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:07:29 -0800
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:07:46 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (197.1ms)
+Completed 200 OK in 244ms (Views: 244.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-a2aaa4d8d0f370f1ebb553f3485e2086bf710429a10787e12f6fbed68f5de840.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-6ab3141849ebcd943b44ad91a18213125d2efce0128000ec69560426a438c29a.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:07:47 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:07:47 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (76.1ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:07:47 -0800
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.4ms)[0m  SELECT "contacts".* FROM "contacts"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/contacts" for ::1 at 2015-11-10 22:07:52 -0800
+Processing by ContactsController#create as HTML
+  Parameters: {"name"=>"ewre", "email"=>"ewrw", "phone"=>"erw", "contact"=>{"name"=>"ewre", "email"=>"ewrw", "phone"=>"erw"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "contacts" ("name", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "ewre"], ["email", "ewrw"], ["phone", "erw"], ["created_at", "2015-11-11 06:07:52.392998"], ["updated_at", "2015-11-11 06:07:52.392998"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 3ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:07:56 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (48.1ms)
+Completed 200 OK in 96ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-6ab3141849ebcd943b44ad91a18213125d2efce0128000ec69560426a438c29a.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:07:56 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:07:56 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (54.8ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (34.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (75.1ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:07:56 -0800
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/contacts" for ::1 at 2015-11-10 22:08:00 -0800
+Processing by ContactsController#create as HTML
+  Parameters: {"name"=>"ewrwe", "email"=>"ewrerwerw", "phone"=>"erwer", "contact"=>{"name"=>"ewrwe", "email"=>"ewrerwerw", "phone"=>"erwer"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "contacts" ("name", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "ewrwe"], ["email", "ewrerwerw"], ["phone", "erwer"], ["created_at", "2015-11-11 06:08:00.193326"], ["updated_at", "2015-11-11 06:08:00.193326"]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:08:00 -0800
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:09:45 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (182.5ms)
+Completed 200 OK in 238ms (Views: 237.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/angular/contact/contact.controller.self-1f631a9b01c577f207094ba862be28409e1e2e072cd7915c694f47f0c86e54a3.js?body=1" for ::1 at 2015-11-10 22:09:46 -0800
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:09:46 -0800
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:09:47 -0800
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:09:50 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.8ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (79.9ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:10:31 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (162.2ms)
+Completed 200 OK in 213ms (Views: 213.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-2066ad70f82b9c0283269eb590dccb04d0eae401947a1b3499351ef738a8352f.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:10:32 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (37.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (79.2ms)
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:10:32 -0800
+
+
+Started GET "/api/contacts/5" for ::1 at 2015-11-10 22:10:32 -0800
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:12:36 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (179.6ms)
+Completed 200 OK in 229ms (Views: 228.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-82d412aace48da805101921eeb2c29e2d529e6a9670608416a5e44901c96ec2f.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:12:36 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:12:37 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (30.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (67.8ms)
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:12:37 -0800
+
+
+Started GET "/" for ::1 at 2015-11-10 22:13:41 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (181.7ms)
+Completed 200 OK in 235ms (Views: 234.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-fbf9c53630fbd2e43e020aeaf21c5982578f4aa071f23dccbe079ff2666a7575.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:13:41 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:13:42 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (34.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (72.0ms)
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:13:42 -0800
+
+
+Started GET "/" for ::1 at 2015-11-10 22:13:43 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (47.4ms)
+Completed 200 OK in 100ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-fbf9c53630fbd2e43e020aeaf21c5982578f4aa071f23dccbe079ff2666a7575.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:13:43 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (30.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (67.5ms)
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-fbf9c53630fbd2e43e020aeaf21c5982578f4aa071f23dccbe079ff2666a7575.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:13:43 -0800
+
+
+Started GET "/" for ::1 at 2015-11-10 22:14:52 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (164.4ms)
+Completed 200 OK in 219ms (Views: 218.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-99585dbb148aff396743d5bf41486dbdf5b4f9f809c2900d06308fe2cfd84a02.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:14:53 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (38.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (83.2ms)
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:14:53 -0800
+
+
+Started GET "/api/contacts/5" for ::1 at 2015-11-10 22:14:53 -0800
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mContact Load (0.3ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:17:05 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (176.7ms)
+Completed 200 OK in 240ms (Views: 240.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-edaf4111a5fd50e24e2b21e102298e72d09a665e19709cc3a603b01b1ff92344.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:17:06 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (40.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (86.5ms)
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:17:06 -0800
+
+
+Started GET "/api/contacts/5" for ::1 at 2015-11-10 22:17:06 -0800
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:17:10 -0800
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/contacts/8" for ::1 at 2015-11-10 22:17:12 -0800
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1[0m  [["id", 8]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:17:18 -0800
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/contacts/8" for ::1 at 2015-11-10 22:17:24 -0800
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1[0m  [["id", 8]]
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/api/contacts/8?email=no&name=no&phone=no" for ::1 at 2015-11-10 22:17:29 -0800
+Processing by ContactsController#update as HTML
+  Parameters: {"email"=>"no", "name"=>"no", "phone"=>"no", "id"=>"8", "contact"=>{}}
+  [1m[35mContact Load (0.2ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1  [["id", 8]]
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.2ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: contact):
+  app/controllers/contacts_controller.rb:79:in `contact_params'
+  app/controllers/contacts_controller.rb:42:in `update'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.9ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007f82e95cefe0 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007f82e95ced10 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007f82e95c7948 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for ::1 at 2015-11-10 22:19:16 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (159.7ms)
+Completed 200 OK in 206ms (Views: 205.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-e922593c74d377385e6ee6f0821b3383159bdd0d81e3a804db36363a4ae6038d.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-edaf4111a5fd50e24e2b21e102298e72d09a665e19709cc3a603b01b1ff92344.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:19:16 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:19:16 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (65.0ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (36.0ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (77.1ms)
+
+
+Started GET "/api/contacts/8.json" for ::1 at 2015-11-10 22:19:17 -0800
+Processing by ContactsController#show as JSON
+  Parameters: {"id"=>"8"}
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1[0m  [["id", 8]]
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/api/contacts/8.json?email=no&name=no&phone=no" for ::1 at 2015-11-10 22:19:21 -0800
+Processing by ContactsController#update as JSON
+  Parameters: {"email"=>"no", "name"=>"no", "phone"=>"no", "id"=>"8", "contact"=>{}}
+  [1m[35mContact Load (0.2ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1  [["id", 8]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.2ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: contact):
+  app/controllers/contacts_controller.rb:79:in `contact_params'
+  app/controllers/contacts_controller.rb:42:in `update'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.9ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007f82e95cefe0 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007f82e95ced10 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007f82e95c7948 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for ::1 at 2015-11-10 22:20:21 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (173.8ms)
+Completed 200 OK in 231ms (Views: 231.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-b6fd511e690bfb266d14c710c75486809239dcc40f1bce218f1b0a97c1c52dba.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:20:21 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:20:21 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (35.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (76.1ms)
+
+
+Started GET "/api/contacts/8" for ::1 at 2015-11-10 22:20:21 -0800
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1[0m  [["id", 8]]
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/api/contacts/8" for ::1 at 2015-11-10 22:20:26 -0800
+Processing by ContactsController#update as HTML
+  Parameters: {"name"=>"no", "email"=>"no", "phone"=>"no", "id"=>"8", "contact"=>{"name"=>"no", "email"=>"no", "phone"=>"no"}}
+  [1m[35mContact Load (0.2ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1  [["id", 8]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "contacts" SET "name" = $1, "email" = $2, "phone" = $3, "updated_at" = $4 WHERE "contacts"."id" = $5  [["name", "no"], ["email", "no"], ["phone", "no"], ["updated_at", "2015-11-11 06:20:26.675232"], ["id", 8]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:22:35 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (167.3ms)
+Completed 200 OK in 217ms (Views: 216.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-c50b1f167ea33d853a6a132bb0a260fba92c75c0fa170a94b6fec355660ae1fb.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-52b5edc8dff65b9173c3b2b2c15b24f9df4d7b5ef4f0a909844e61ed2fc377c4.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:22:35 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:22:35 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (35.0ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (75.2ms)
+
+
+Started GET "/api/contacts/8" for ::1 at 2015-11-10 22:22:36 -0800
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mContact Load (0.2ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1  [["id", 8]]
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/api/contacts/8" for ::1 at 2015-11-10 22:22:37 -0800
+Processing by ContactsController#destroy as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "contacts" WHERE "contacts"."id" = $1[0m  [["id", 8]]
+  [1m[35m (1.8ms)[0m  COMMIT
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:22:37 -0800
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/contacts/7" for ::1 at 2015-11-10 22:22:38 -0800
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mContact Load (0.2ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1  [["id", 7]]
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/api/contacts/7" for ::1 at 2015-11-10 22:22:39 -0800
+Processing by ContactsController#destroy as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "contacts" WHERE "contacts"."id" = $1[0m  [["id", 7]]
+  [1m[35m (1.9ms)[0m  COMMIT
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:22:39 -0800
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-10 22:23:02 -0800
+Processing by StaticsController#index as HTML
+  Rendered layouts/application.html.erb within layouts/application (173.1ms)
+Completed 200 OK in 219ms (Views: 219.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/scaffolds.self-4c2c00e757e4f2c8e64e05b9d52d38150cff37e46052f1048c2fe4fb747d5092.css?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/lib/angular-resource.self-6a6a88bdde4d8daabbcfcad6232c5f75ff9437344a33f493724f7fdd051d02dd.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/lib/angular-route.self-52c33b9ddd6f5120db4096e133b385148e7519faad3af4f231d928238104be58.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.module.self-834972f194acc0591607314a1b36af25cd9e8c4a631ba23873b1b79cf145ffb4.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/contact/contact.module.self-bc6f908ef2cd95d1f0c5209c2ca834dcf34d78d475bd3dc51444298b50f5f3eb.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/app.module.self-828ec55bbd69617ad13a49f0bbf653c2d1cecd5dbf3ff09aea64db5203dee352.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/contact/config.route.self-777cf0e19ad8c70a3f1a365ca88112cf61c5fce2d739d44add02d14b8b802664.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/contact/contact.controller.self-c50b1f167ea33d853a6a132bb0a260fba92c75c0fa170a94b6fec355660ae1fb.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/contact/contact.factory.self-bdd62253e71e6b10cd32ffd339b4b81cd0e97facc5b3b1a1a3a65cadade151ff.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/contacts/config.route.self-63b0147d7dd3b4e45bdc047e2b485696e798a362e3a6dc099f38a1ad5b134656.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.controller.self-c6cef43f8aa7e554f86c1f7fd38bff38872029918fd4bf82eea9b0e011ce9f76.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/contacts/contacts.factory.self-4e15d5601d51d1638353d72d4e28fa625e66e288c93468e285d4287cae71865d.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-10 22:23:02 -0800
+
+
+Started GET "/assets/angular/lib/angular.min.js.map" for ::1 at 2015-11-10 22:23:02 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular/lib/angular.min.js.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack-rewrite (1.5.1) lib/rack/rewrite.rb:24:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/camiren/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.0ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (34.5ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/camiren/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (80.8ms)
+
+
+Started GET "/api/contacts" for ::1 at 2015-11-10 22:23:02 -0800
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/contacts/5" for ::1 at 2015-11-10 22:23:03 -0800
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)

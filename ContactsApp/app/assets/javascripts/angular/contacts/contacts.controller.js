@@ -9,20 +9,19 @@
   function ContactsController(ContactsFactory) {
     var vm = this;
 
+    function getContacts() {
+      vm.contactData = ContactsFactory.query();
+    }
+
     function addContact() {
       // console.log(vm.newContact);
-      ContactsFactory.createContact(vm.newContact);
+      ContactsFactory.save(vm.newContact);
+      // ContactsFactory.createContact(vm.newContact);
       // $route.reload();
       vm.newContact = {};
       getContacts();
     }
 
-    function getContacts() {
-      ContactsFactory.getContacts().then(function(data) {
-        console.log(data);
-        vm.contactData = data.data;
-      });
-    }
     getContacts();
     vm.addContact = addContact;
   }

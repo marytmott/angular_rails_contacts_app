@@ -4,35 +4,38 @@
   angular.module('contactsApp.contacts')
     .factory('ContactsFactory', ContactsFactory);
 
-  ContactsFactory.$inject = ['$http'];
+  ContactsFactory.$inject = ['$resource'];
 
-  function ContactsFactory($http) {
-    function getContacts() {
-      return $http.get('/api/contacts')
-        .success(requestSuccess)
-        .error(requestError);
-    }
+  function ContactsFactory($resource) {
+    return $resource('/api/contacts/:id', {id: '@id'},
+      { update: {method: 'PUT'} });
 
-    function createContact(newContact) {
-      return $http.post('/api/contacts', newContact)
-        .success(requestSuccess)
-        .error(requestError);
-    }
+    // function getContacts() {
+    //   return $http.get('/api/contacts')
+    //     .success(requestSuccess)
+    //     .error(requestError);
+    // }
+
+    // function createContact(newContact) {
+    //   return $http.post('/api/contacts', newContact)
+    //     .success(requestSuccess)
+    //     .error(requestError);
+    // }
 
 
-    function requestSuccess(data) {
-      console.log(data);
-      return data;
-    }
+    // function requestSuccess(data) {
+    //   console.log(data);
+    //   return data;
+    // }
 
-    function requestError(error) {
-      console.log(error);
-    }
+    // function requestError(error) {
+    //   console.log(error);
+    // }
 
-    return {
-      getContacts: getContacts,
-      createContact: createContact
-    };
+    // return {
+    //   getContacts: getContacts,
+    //   createContact: createContact
+    // };
   }
 })();
 
