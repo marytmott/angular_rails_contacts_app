@@ -8,20 +8,20 @@
 
   function ContactRequestFactory($http) {
     function getOneContact(contactId) {
-      return $http.get('/contacts/' + contactId)
+      return $http.get('/api/contacts/' + contactId)
         .success(requestSuccess)
         .error(requestError);
     }
 
     function removeContact(contactId) {
       console.log(contactId);
-      return $http.delete('/contacts/' + contactId)
+      return $http.delete('/api/contacts/' + contactId)
         .success(requestSuccess)
         .error(requestError);
     }
 
     function updateContact(contactId, contactInfo) {
-      return $http.put('/contacts/' + contactId, contactInfo)
+      return $http.put('/api/contacts/' + contactId, contactInfo)
         .success(requestSuccess)
         .error(requestError);
     }

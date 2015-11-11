@@ -8,13 +8,13 @@
 
   function ContactsFactory($http) {
     function getContacts() {
-      return $http.get('/contacts')
+      return $http.get('/api/contacts')
         .success(requestSuccess)
         .error(requestError);
     }
 
     function createContact(newContact) {
-      return $http.post('/contacts', newContact)
+      return $http.post('/api/contacts', newContact)
         .success(requestSuccess)
         .error(requestError);
     }
