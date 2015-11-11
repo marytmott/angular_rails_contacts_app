@@ -13,13 +13,24 @@
       $location.path('/');
     }
 
+    function updateContact() {
+      vm.update = !vm.update;
+      console.log(vm.update);
+      if (!vm.update) {
+        ContactRequestFactory.updateContact(vm.contact.id, vm.contact).then(function(data) {
+          console.log(data);
+        });
+      }
+    }
+
     ContactRequestFactory.getOneContact($routeParams.id).then(function(data) {
       console.log(data);
       vm.contact = data.data;
     });
     vm.removeContact = removeContact;
+    vm.update = false;
+    vm.updateContact = updateContact;
   }
-
 })();
 
 

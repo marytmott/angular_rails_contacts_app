@@ -1,7 +1,21 @@
 <!-- <img ng-src="{{contact.giphy}}" /> -->
-<h3>{{vm.contact.name}}</h3>
-<p>email: {{vm.contact.email}}</p>
-<p>phone: {{vm.contact.phone}}</p>
-<button ng-click="vm.updateContact()">Update {{vm.contact.name}}</button>
-<button ng-click="vm.removeContact()">Remove {{vm.contact.name}}</button>
-form shows
+<div ng-hide="vm.update">
+  <h3>{{vm.contact.name}}</h3>
+  <p>email: {{vm.contact.email}}</p>
+  <p>phone: {{vm.contact.phone}}</p>
+</div>
+<form ng-show="vm.update">
+  <label>name:
+    <input type="text" ng-model="vm.contact.name" />
+  </label><br />
+  <label>email:
+    <input type="text" ng-model="vm.contact.email" />
+  </label><br />
+  <label>phone:
+    <input type="text" ng-model="vm.contact.phone" />
+  </label>
+</form>
+<br />
+<button ng-hide="vm.update" ng-click="vm.updateContact()">Update {{vm.contact.name}}</button>
+<button ng-show="vm.update" ng-click="vm.updateContact()">Submit</button>
+<button ng-click="vm.removeContact()">Remove</button>

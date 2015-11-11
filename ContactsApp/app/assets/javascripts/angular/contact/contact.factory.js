@@ -20,6 +20,12 @@
         .error(requestError);
     }
 
+    function updateContact(contactId, contactInfo) {
+      return $http.put('/contacts/' + contactId, contactInfo)
+        .success(requestSuccess)
+        .error(requestError);
+    }
+
     function requestSuccess(data) {
       console.log(data);
       return data;
@@ -31,7 +37,8 @@
 
     return {
       getOneContact: getOneContact,
-      removeContact: removeContact
+      removeContact: removeContact,
+      updateContact: updateContact
     };
   }
 })();
